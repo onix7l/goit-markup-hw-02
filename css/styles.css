@@ -10,15 +10,15 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--additional-color-text);
+  color: var(--link-unactive);
   background-color: var(--main-background-color);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style-type: none;
 }
 
