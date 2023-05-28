@@ -50,11 +50,14 @@ body {
   color: var(--additional-color-text);
 }
 .header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link:focus,
+.header-logo:hover,
+.header-logo:focus {
   color: var(--link-active);
 }
 .header-address {
   font-style: normal;
+  color: var(--link-unactive);
 }
 .header-contacts {
 }
