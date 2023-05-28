@@ -37,7 +37,7 @@ body {
   color: var(--header-logo-blue);
 }
 
-.header-logo span {
+.header-logo-span {
   color: var(--additional-color-text);
 }
 .header-menu {
@@ -91,10 +91,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--main-color-text);
   background-color: var(--header-logo-blue);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
-.hero-btn:active {
+.hero-btn:focus {
   background-color: var(--link-active);
   cursor: pointer;
 }
@@ -180,7 +181,7 @@ body {
   text-transform: uppercase;
   color: var(--header-logo-blue);
 }
-.footer-logo span {
+.footer-logo-span {
   color: var(--background-color-additional);
 }
 .footer-text {
