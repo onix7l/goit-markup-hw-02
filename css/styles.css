@@ -211,11 +211,12 @@ body {
   letter-spacing: 0.04em;
   color: var(--header-logo-blue);
   background-color: var(--background-color-additional);
+  cursor: pointer;
 }
 .portfolio-btn:hover,
-.portfolio-btn:active {
+.portfolio-btn:focus {
+  color: var(--main-color-text);
   background-color: var(--link-active);
-  cursor: pointer;
 }
 .portfolio-list {
 }
