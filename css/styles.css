@@ -75,6 +75,11 @@ body {
   color: var(--link-unactive);
 }
 
+.header-contacts-link:focus,
+.header-contacts-link:hover {
+  color: var(--link-active);
+}
+
 .hero {
   background-color: var(--additional-color-text);
 }
@@ -145,19 +150,6 @@ body {
   background-color: var(--background-color-additional);
 }
 
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--additional-color-text);
-}
-
-.team-title-h2 {
-  color: var(--additional-color-text);
-}
 .team-list {
 }
 .team-item {
